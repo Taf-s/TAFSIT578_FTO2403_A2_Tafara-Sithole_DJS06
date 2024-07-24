@@ -8,9 +8,11 @@ names.forEach((name) => {
   console.log(name);
 });
 
-const nameWithProvince = names.map((name, index) => {
+const nameWithProvince = [];
+
+names.forEach((name, index) => {
   const province = provinces[index % provinces.length];
-  return `${name} (${province})`;
+  nameWithProvince.push(`${name} (${province})`);
 });
 
 console.log(nameWithProvince);
