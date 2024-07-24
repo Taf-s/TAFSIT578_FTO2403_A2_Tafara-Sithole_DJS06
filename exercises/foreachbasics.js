@@ -1,5 +1,7 @@
 const { provinces, names } = require("../data.js");
 
+// Uses `forEach` to log each name and each province to the console
+// Then, log each name with a matching province in the format "Name (Province)" //
 provinces.forEach((province) => {
   console.log(province);
 });
