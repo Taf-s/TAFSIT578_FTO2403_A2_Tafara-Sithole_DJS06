@@ -71,3 +71,6 @@ For these exercises, wrap your logic in a single `console.log` statement:
 6. **Object Transformation**: Using `Object.entries` and `reduce`, recreate the products object with keys 'name' and 'cost', maintaining their original values.
 
 #### Loom Video Link
+
+https://www.loom.com/share/0a7de9c49ba84610aa59896a06e1413b?sid=1864f32a-23d0-4fae-be9e-4ad217747c05
+
