@@ -8,7 +8,7 @@ console.log(
         ({ price }) =>
           !isNaN(price) && price !== "" && String(price).trim() !== ""
       )
-      // Converts the string prices to numbers using the map method.//
+      // Uses the map method to iterate through the products array and convert the prices to numbers.//
       .map(({ product, price }) => ({ product, price: Number(price) }));
 
     // Calculate the highest price for the valid products using the reduce method.//
