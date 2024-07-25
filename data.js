@@ -27,5 +27,3 @@ exports.products = [
   { product: "coffee", price: 10 },
   { product: "tea", price: "" },
 ];
-
-// export {provinces, names, products }
